@@ -1,22 +1,10 @@
-# ---- Core framework ----
 streamlit
 python-dotenv
-
-# ---- LangChain core ----
-langchain
-langchain-core
-langchain-community
+langchain==0.1.16
+langchain-core==0.1.52
+langchain-community==0.0.20
+langchain-google-genai==0.0.11
 langchain-text-splitters
-
-# ---- PDF and document parsing ----
-pypdf
-PyMuPDF
-pdfplumber
-
-# ---- Optional: text splitting / utilities ----
-tiktoken
-
-# ---- Compatibility helpers ----
-requests
-
-langchain-google-genai
+google-generativeai
+protobuf<5
+reportlab
