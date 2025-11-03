@@ -1,0 +1,22 @@
+# ---- Core framework ----
+streamlit
+python-dotenv
+
+# ---- LangChain core ----
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# ---- PDF and document parsing ----
+pypdf
+PyMuPDF
+pdfplumber
+
+# ---- Optional: text splitting / utilities ----
+tiktoken
+
+# ---- Compatibility helpers ----
+requests
+
+langchain-google-genai
